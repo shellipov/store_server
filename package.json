@@ -1,0 +1,26 @@
+{
+  "name": "store_server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shellipov/store_server.git"
+  },
+  "author": "shell",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shellipov/store_server/issues"
+  },
+  "homepage": "https://github.com/shellipov/store_server#readme",
+  "description": "",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "express-graphql": "^0.12.0",
+    "graphql": "^15.10.1",
+    "nodemon": "^3.1.10"
+  }
+}
